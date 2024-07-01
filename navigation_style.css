@@ -1,0 +1,71 @@
+/* navigation_style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+}
+
+/* Navigation menu list styling */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation menu item styling */
+.nav-item {
+    position: relative;
+}
+
+/* Navigation link styling */
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navigation link hover effect */
+.nav-link:hover {
+    background-color: #0056b3;
+    color: #e0e0e0;
+}
+
+/* Custom bullet points for navigation menu */
+.nav-item::before {
+    content: '•';
+    color: #ffffff;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    opacity: 0.5;
+}
+
+/* Hide the bullet point for the first item */
+.nav-item:first-child::before {
+    content: '';
+}
+
+/* Adding a hover effect for the bullet points */
+.nav-item:hover::before {
+    color: #e0e0e0;
+}
+
+
+

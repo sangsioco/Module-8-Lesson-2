@@ -1,0 +1,76 @@
+/* registration_style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the registration form */
+.registration-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title of the form */
+.form-title {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.registration-form label {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+.registration-form input {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Hover and focus effects for input fields */
+.registration-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.registration-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.registration-form button:hover {
+    background-color: #0056b3;
+}
